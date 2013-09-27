@@ -10,15 +10,15 @@ describe '#sort_animals' do
       ["aardvark", "cat", "elephant"]
     ]
 
-    sort_animals.should == sorted_animals
+    sort_animals(animals).should == sorted_animals
   end
 
   it 'returns sea creatures first' do
-    sort_animals.first.should include "marlin"
+    sort_animals(animals).first.should include "marlin"
   end
 
   it 'returns land animals second' do
-    sort_animals.last.should include "aardvark"
+    sort_animals(animals).last.should include "aardvark"
   end
 
 end
