@@ -16,7 +16,14 @@ describe '#email_parser' do
 
   it "parses both CSV and spac delimited emails" do
     emails = "avi@test.com, bob@test.com test@avi.com, test@bob.com"
-    
+
     email_parser(emails).should be ["avi@test.com", "bob@test.com","test@avi.com", "test@bob.com"] 
   end
+
+  it 'parses and removes duplicate emails' do
+    emails = "avi@test.com, avi@test.com"
+    
+    email_parser(emails).should be ["avi@test.com"]
+  end
+
 end
