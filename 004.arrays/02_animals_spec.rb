@@ -10,7 +10,7 @@ describe '#sort_animals' do
       ["aardvark", "cat", "elephant"]
     ]
 
-    sort_animals.should be sorted_animals
+    sort_animals.should == sorted_animals
   end
 
   it 'returns sea creatures first' do
