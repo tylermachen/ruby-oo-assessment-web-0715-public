@@ -20,7 +20,7 @@ describe '#parrot' do
     parrot("Pretty bird!")
   end
 
-  it 'should output the given phrase' do
+  it 'should return the given phrase' do
     phrase = parrot("Pretty bird!")
 
     phrase.should == "Pretty bird!"

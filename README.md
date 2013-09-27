@@ -56,6 +56,8 @@ As in any test suite, it's inappropriate to change the test code.
 
 # Submitting Your Solution.
 
+Simply push the `solutions` branch to your fork.
+
 # Notes
 
 Feel free to use Google. Do your best. Go slow, one line at a time,
