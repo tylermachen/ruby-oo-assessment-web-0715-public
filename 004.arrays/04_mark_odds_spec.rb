@@ -12,7 +12,7 @@ describe "#mark_odds" do
   end
 
   it 'should work with mixed arrays' do
-    mark_odds([2,3]).should eq(true, false)
+    mark_odds([2,3]).should eq([false, true])
   end
 
 end
