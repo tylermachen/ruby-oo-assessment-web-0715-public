@@ -1,14 +1,14 @@
 # Forking and Cloning The Test Suite
 
 Please fork the repository at:
-http://github.com/flatiron-school/ruby-003-quiz-1
+http://github.com/flatiron-school/ruby-003-quiz
 
 Clone your fork locally and create a `solutions` branch.
-Push your `solutions` branch to your fork.
+Push your `oo-solutions` branch to your fork.
 
 Make a commit for every test file you make pass. For example,
-once you make `001.assignment/.01_assignment_spec.rb` pass, you should make 
-a commit that reads `pass 001.assignment/.01_assignment_spec.rb`.
+once you make `001.objects/.01_dogs_spec.rb` pass, you should make 
+a commit that reads `pass 001.objects/.01_dogs_spec.rb`.
 
 # Installing RSpec
 
@@ -38,7 +38,7 @@ rspec spec.rb
 You can also run each test individually with:
 
 ```
-rspec 001.assignment/01_assignment_spec.rb
+rspec 001.objects/01_dogs_spec.rb
 ```
 
 # Making the Tests Pass
@@ -47,8 +47,8 @@ Read each spec file (they start with numbers and end in `spec.rb`.
 Do the tests in order). Most of the tests require a file for you to 
 code your solution in.
 
-For example `002.methods/01_dice_spec.rb` requires a file
-`dice.rb`. That is where to code your solution. Once you write 
+For example `002.methods/01_count_sentences_spec.rb` requires a file
+`count_sentences.rb`. That is where to code your solution. Once you write 
 code to make the test pass, re-run the test suite until it turns
 green.
 
@@ -56,7 +56,7 @@ As in any test suite, it's inappropriate to change the test code.
 
 # Submitting Your Solution.
 
-Simply push the `solutions` branch to your fork.
+Simply push the `oo-solutions` branch to your fork.
 
 # Notes
 

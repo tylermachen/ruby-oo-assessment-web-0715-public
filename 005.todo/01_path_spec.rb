@@ -3,7 +3,7 @@ require_relative "./path.rb" # Code your solution here.
 
 # Code some tests for path.rb.
 
-# There are three methods.
+# There are three methods on the Path class.
 
 # The normalize_path method will return an absolute
 # path to the file no matter what kind of path sent

@@ -1,7 +1,7 @@
 require_relative '../spec_helper'
-require_relative './animals.rb' # Code your solution in this file
+require_relative './animal.rb' # Code your solution in this file
 
-describe '#sort_animals' do
+describe AnimalSorter, '#to_a' do
   animals = ["marlin", "aardvark", "octopus", "cat", "fish", "elephant"]
 
   it 'sorts sea and land animals' do
@@ -10,15 +10,15 @@ describe '#sort_animals' do
       ["aardvark", "cat", "elephant"]
     ]
 
-    sort_animals(animals).should == sorted_animals
+    AnimalSorter.new(animals).to_a.should == sorted_animals
   end
 
   it 'returns sea creatures first' do
-    sort_animals(animals).first.should include "marlin"
+    AnimalSorter.new(animals).to_a.first.should include "marlin"
   end
 
   it 'returns land animals second' do
-    sort_animals(animals).last.should include "aardvark"
+    AnimalSorter.new(animals).to_a.last.should include "aardvark"
   end
 
 end

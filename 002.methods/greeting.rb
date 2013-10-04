@@ -1,14 +1,13 @@
-# Define four methods, greeting, morning?, afternoon?, night?.
+# Define a class Greeting with 4 methods
+# say, morning?, afternoon?, night?
 
-# greeting should accept the current hour.
-# The greeting method should pass the hour right now to 
-# the other three methods and based on their true/false
-# response, should give the appropriate greeting for the time
-# of day.
+# When creating a Greeting, it should accept an argument of the hour
+# of the day (in military time).
+
+# The say method should give the appropriate greeting for the time
+# of day using the morning?, afternoon?, night? methods.
 
 # morning: 06 - 11: Good Morning!
 # afternoon: 12 - 19: Good Afternoon!
 # night: 20 - 05: Good night
-
-# Note we're using military time.
 

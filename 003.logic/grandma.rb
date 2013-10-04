@@ -1,6 +1,6 @@
-# Write a speak_to_grandma method.
+# Create a Grandma class that responds to a speak_to method.
 
-# Whatever you say to grandma, she should respond with
+# Whatever you speak_to grandma, she should respond with
 # HUH?!  SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
 

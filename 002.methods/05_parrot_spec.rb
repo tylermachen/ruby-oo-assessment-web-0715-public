@@ -1,28 +1,34 @@
 require_relative '../spec_helper'
 require_relative './parrot.rb' # Code your solution in this file
 
-describe '#parrot' do
+describe Parrot,'#speak' do
+  it 'should return the default phrase' do
+    parrot = Parrot.new
+    parrot.phrase == 'Squak!'
+  end
+
   it 'should say "Squawk!" by default' do
+    # $stdout is a global variable that represents the console IO
+    # just like the constant STDOUT
     $stdout.should_receive(:puts).with("Squawk!")
 
-    parrot
-  end
-
-  it 'should return the default phrase' do
-    phrase = parrot
-
-    phrase.should == "Squawk!"
-  end
-
-  it 'should output the given phrase' do
-    $stdout.should_receive(:puts).with("Pretty bird!")
-
-    parrot("Pretty bird!")
+    Parrot.new.speak
   end
 
   it 'should return the given phrase' do
-    phrase = parrot("Pretty bird!")
+    parrot = Parrot.new
+    parrot.phrase = 'Pretty bird!'
 
-    phrase.should == "Pretty bird!"
+    parrot.phrase.should == "Pretty bird!"
   end
+
+  it 'should output the given phrase' do
+    parrot = Parrot.new
+    parrot.phrase = "Pretty bird!"
+
+    $stdout.should_receive(:puts).with("Pretty bird!")
+
+    parrot.speak
+  end
+
 end
