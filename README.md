@@ -4,7 +4,7 @@ Please fork the repository at:
 http://github.com/flatiron-school/ruby-003-quiz
 
 Clone your fork locally and create a `solutions` branch.
-Push your `oo-solutions` branch to your fork.
+Push your `solutions` branch to your fork.
 
 Make a commit for every test file you make pass. For example,
 once you make `001.objects/.01_dogs_spec.rb` pass, you should make 
@@ -56,7 +56,7 @@ As in any test suite, it's inappropriate to change the test code.
 
 # Submitting Your Solution.
 
-Simply push the `oo-solutions` branch to your fork.
+Simply push the `solutions` branch to your fork.
 
 # Notes
 
