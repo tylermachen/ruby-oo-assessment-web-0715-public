@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './animal.rb' # Code your solution in this file
+require_relative './animal_sorter.rb' # Code your solution in this file
 
 describe AnimalSorter, '#to_a' do
   animals = ["marlin", "aardvark", "octopus", "cat", "fish", "elephant"]
