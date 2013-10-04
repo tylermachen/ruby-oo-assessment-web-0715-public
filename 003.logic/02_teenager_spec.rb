@@ -11,6 +11,6 @@ describe Person, "#is_a_teenager?" do
   end
 
   it "returns true if the person is between the ages of 13 and 19" do
-    Person.new(15)is_a_teenager?.should eq(true)
+    Person.new(15).is_a_teenager?.should eq(true)
   end
 end
