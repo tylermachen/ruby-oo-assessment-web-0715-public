@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './dice.rb' # Code your solution in this file
+require_relative '../lib/dice.rb' # Code your solution in this file
 
 describe Dice, "#roll" do
 

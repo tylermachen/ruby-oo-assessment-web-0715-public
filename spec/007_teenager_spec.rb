@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './teenager.rb' # Code your solution in this file
+require_relative '../lib/teenager.rb' # Code your solution in this file
 
 describe Person, "#is_a_teenager?" do
   it "returns false if the person is younger than 13" do

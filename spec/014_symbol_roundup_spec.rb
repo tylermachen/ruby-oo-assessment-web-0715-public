@@ -1,5 +1,5 @@
 require_relative "../spec_helper"
-require_relative "./symbol_roundup.rb" # Code your solution here.
+require_relative "../lib/symbol_roundup.rb" # Code your solution here.
 
 describe Array, "#symbol_roundup" do
 

@@ -1,5 +1,5 @@
 require_relative "../spec_helper"
-require_relative "./mark_odds.rb" # Code your solution here.
+require_relative "../lib/mark_odds.rb" # Code your solution here.
 
 describe Array,"#odds?" do
   

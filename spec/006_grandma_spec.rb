@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './grandma.rb' # Code your solution in this file
+require_relative '../lib/grandma.rb' # Code your solution in this file
 
 describe Grandma, '#speak_to' do
   let(:grandma){Grandma.new}

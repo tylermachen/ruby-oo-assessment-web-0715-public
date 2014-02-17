@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './temperature.rb' # Code your solution in this file
+require_relative '../lib/temperature.rb' # Code your solution in this file
 
 describe Temperature, '#status' do
   it 'is comfortable at room temperature' do

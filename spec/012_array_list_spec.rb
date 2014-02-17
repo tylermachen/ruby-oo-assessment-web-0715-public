@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative "./array_list.rb" # Code your solution in this file
+require_relative "../lib/array_list.rb" # Code your solution in this file
 
 describe Array, "#list" do
 

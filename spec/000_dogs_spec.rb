@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './dog.rb' # Code your solution in this file
+require_relative '../lib/dog.rb' # Code your solution in this file
 
 describe Dog do
   let(:fido) {Dog.new}  # Look up what let does in RSpec

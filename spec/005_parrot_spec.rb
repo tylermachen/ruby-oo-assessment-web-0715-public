@@ -1,5 +1,5 @@
 require_relative '../spec_helper'
-require_relative './parrot.rb' # Code your solution in this file
+require_relative '../lib/parrot.rb' # Code your solution in this file
 
 describe Parrot,'#speak' do
   it 'should return the default phrase' do

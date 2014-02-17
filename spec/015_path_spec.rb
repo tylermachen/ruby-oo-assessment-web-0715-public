@@ -1,5 +1,5 @@
 require_relative "../spec_helper"
-require_relative "./path.rb" # Code your solution here.
+require_relative "../lib/path.rb" # Code your solution here.
 
 # Code some tests for path.rb.
 
