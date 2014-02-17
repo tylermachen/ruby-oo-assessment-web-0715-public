@@ -1,7 +1,7 @@
 class Path
   attr_accessor :path
 
-  def intialize(path) # Notice the power of an objects
+  def initialize(path) # Notice the power of an objects
     @path = path      # properties. Because the object stores
                       # the path variable, we no longer need to
                       # pass it around to all the other methods
@@ -9,11 +9,11 @@ class Path
   end                 
 
   def normalize_path
-    "#{"#{Dir.pwd}/" if relative_path?(path)}#{path}"
+    "#{"#{Dir.pwd}/" if relative_path?}#{path}"
   end
 
   def relative_path?
-    !absolute_path?(path)
+    !absolute_path?
   end
 
   def absolute_path?
