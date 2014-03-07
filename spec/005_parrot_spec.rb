@@ -4,7 +4,7 @@ require_relative '../lib/parrot.rb' # Code your solution in this file
 describe Parrot,'#speak' do
   it 'should return the default phrase' do
     parrot = Parrot.new
-    parrot.phrase == 'Squak!'
+    parrot.phrase.should == 'Squawk!'
   end
 
   it 'should say "Squawk!" by default' do
