@@ -2,7 +2,7 @@ require_relative '../spec_helper'
 require_relative '../lib/animal_sorter.rb' # Code your solution in this file
 
 describe AnimalSorter, '#to_a' do
-  animals = ["marlin", "aardvark", "octopus", "cat", "fish", "elephant"]
+  let(:animals) { ["marlin", "aardvark", "octopus", "cat", "fish", "elephant"] }
 
   it 'sorts sea and land animals' do
     sorted_animals = [
