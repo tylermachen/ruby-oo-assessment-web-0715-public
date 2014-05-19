@@ -1,4 +1,4 @@
-require_relative '../spec_helper'
+require 'spec_helper'
 require_relative '../lib/dog.rb' # Code your solution in this file
 
 describe Dog do

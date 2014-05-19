@@ -1,4 +1,4 @@
-require_relative '../spec_helper'
+require 'spec_helper'
 require_relative '../lib/email_parser.rb' # Code your solution in this file
 
 describe EmailParser,'#parser' do
