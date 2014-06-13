@@ -1,14 +1,15 @@
 require 'spec_helper'
 require_relative '../lib/count_sentences.rb' # Code your solution in this file
 
-describe String, "#count_sentences" do
+describe String do
+  describe "#count_sentences" do
 
-  it  "should return the number of sentences in a string" do
-    "one. two. three?".count_sentences.should eq(3)
+    it  "returns the number of sentences in a string" do
+      expect("one. two. three?".count_sentences).to eq(3)
+    end
+
+    it "returns zero if there are no sentences in a string" do
+      expect("".count_sentences).to eq(0)
+    end
   end
-
-  it "should return zero if there are no sentences in a string" do
-    "".count_sentences.should eq(0)
-  end
-
 end
