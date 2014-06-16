@@ -20,7 +20,7 @@ describe "Parrot" do
     it 'says "Squawk!" by default' do
       # $stdout is a global variable that represents the console IO
       # just like the constant STDOUT
-      expect($stdout).to_receive(:puts).with("Squawk!")
+      expect($stdout).to receive(:puts).with("Squawk!")
   
       Parrot.new.speak
     end
@@ -29,7 +29,7 @@ describe "Parrot" do
       parrot = Parrot.new
       parrot.phrase = "Pretty bird!"
   
-      expect($stdout).to_receive(:puts).with("Pretty bird!")
+      expect($stdout).to receive(:puts).with("Pretty bird!")
   
       parrot.speak
     end
