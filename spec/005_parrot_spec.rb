@@ -5,14 +5,14 @@ describe "Parrot" do
   describe '#phrase' do
     it 'returns the default phrase' do
       parrot = Parrot.new
-      expect(parrot.phrase).to == 'Squawk!'
+      expect(parrot.phrase).to eq('Squawk!')
     end
       
     it 'returns the given phrase' do
       parrot = Parrot.new
       parrot.phrase = 'Pretty bird!'
   
-      expect(parrot.phrase).to == "Pretty bird!"
+      expect(parrot.phrase).to eq("Pretty bird!")
     end
   end
 
