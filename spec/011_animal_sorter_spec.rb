@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative '../lib/animal_sorter.rb' # Code your solution in this file
 
 describe "AnimalSorter" do

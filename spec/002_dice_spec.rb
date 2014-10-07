@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative '../lib/dice.rb' # Code your solution in this file
 
 describe "Dice" do

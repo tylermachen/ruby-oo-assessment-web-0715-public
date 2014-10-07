@@ -14,7 +14,7 @@ describe "Dog" do
     expect(fido.name).to eq("Fido")
   end
 
-   it "should be able to bark it's name" do
+   it "should be able to bark its name" do
     fido.name = "Fido"
 
     # STDOUT is a constant that ruby defines for you

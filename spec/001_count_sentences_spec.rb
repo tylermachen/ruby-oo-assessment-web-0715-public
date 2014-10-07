@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative '../lib/count_sentences.rb' # Code your solution in this file
 
 describe String do

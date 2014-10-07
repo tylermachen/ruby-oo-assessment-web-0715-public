@@ -1,4 +1,3 @@
-require "spec_helper"
 require_relative "../lib/symbol_roundup.rb" # Code your solution here.
 
 describe Array do 

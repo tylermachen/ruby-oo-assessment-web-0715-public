@@ -1,4 +1,3 @@
-require "spec_helper"
 require_relative "../lib/path.rb" # Code your solution here.
 
 # Code some tests for path.rb.
@@ -15,9 +14,9 @@ require_relative "../lib/path.rb" # Code your solution here.
 # The relative_path? method will return true if the 
 # path passed to it is relative.
 
-# Write some test that spec it out.
+# Write some tests that spec it out.
 
-# Use the other tests in this suite to complete this.
+# Use the other tests in this suite as guides.
 
 # You should should write at least three describe blocks, 
 # one for each method.

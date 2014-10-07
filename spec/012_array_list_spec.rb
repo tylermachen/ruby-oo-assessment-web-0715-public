@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative "../lib/array_list.rb" # Code your solution in this file
 
 describe Array do 

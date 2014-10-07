@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative '../lib/greeting.rb' # Code your solution in this file
 
 describe "Greeting" do

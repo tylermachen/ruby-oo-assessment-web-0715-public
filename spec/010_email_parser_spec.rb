@@ -1,4 +1,3 @@
-require 'spec_helper'
 require_relative '../lib/email_parser.rb' # Code your solution in this file
 
 describe "EmailParser" do
@@ -13,7 +12,7 @@ describe "EmailParser" do
       expect(EmailParser.new(emails).parse).to eq ["avi@test.com", "bob@test.com"]
     end
 
-    it "parses both CSV and spac delimited emails" do
+    it "parses both CSV and space delimited emails" do
       emails = "avi@test.com, bob@test.com test@avi.com, test@bob.com"
       expect(EmailParser.new(emails).parse).to eq ["avi@test.com", "bob@test.com","test@avi.com", "test@bob.com"] 
     end
