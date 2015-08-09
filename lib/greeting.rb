@@ -1,13 +1,27 @@
-# Define a class Greeting with 4 methods
-# say, morning?, afternoon?, night?
+class Greeting
+  attr_accessor :hour
 
-# When creating a Greeting, it should accept an argument of the hour
-# of the day (in military time).
+  def initialize(hour)
+    @hour = hour
+  end
 
-# The say method should give the appropriate greeting for the time
-# of day using the morning?, afternoon?, night? methods.
+  def say
+    case
+      when morning? then "Good Morning!"
+      when afternoon? then "Good Afternoon!"
+      when night? then "Good Night!"
+    end
+  end
 
-# morning: 06 - 11: Good Morning!
-# afternoon: 12 - 19: Good Afternoon!
-# night: 20 - 05: Good night
+  def morning?
+    (6..11).include?(@hour)
+  end
 
+  def afternoon?
+    (12..19).include?(@hour)
+  end
+
+  def night?
+    (20..24).include?(@hour) || (1..5).include?(@hour)
+  end
+end

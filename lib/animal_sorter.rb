@@ -1,9 +1,12 @@
-# Build a class AnimalSorter that accepts a list of animals on 
-# initialization.
+class AnimalSorter
+  LAND_ANIMALS = ["aardvark", "cat", "elephant"]
+  SEA_CREATURES = ["marlin", "octopus", "fish"]
 
-# Define a to_a method to account for the species in the test suite.
+  def initialize(animals)
+    @animals = animals
+  end
 
-# Return an array that contains two arrays, the first one
-# should include the sea creatures, the second, land animals.
-
-# Read the test suite for an example of a nested array.
+  def to_a
+    @animals.partition { |animal| SEA_CREATURES.include?(animal) }
+  end
+end
